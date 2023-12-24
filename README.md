@@ -1,14 +1,15 @@
-# ATLauncher Wiki
+# SCAMP Wiki
 
-Static wiki written with Markdown using Nextra and Next.js and hosted using Cloudflare Pages at
-<https://wiki.atlauncher.com>.
+This is essentially a wiki for my SCAMP build to help keep me organized through the rest of the build.
+
+Built as a static wiki written with Markdown using Nextra and Next.js based on the [ATLauncher Wiki](https://github.com/ATLauncher/wiki).
 
 ## Development
 
 To get setup you will need to make sure you have the following installed on your machine:
 
 -   [NodeJS 14](https://nodejs.org/en/download/)
-    -   check out [nvm](https://github.com/creationix/nvm) or [nvm-windows](https://github.com/coreybutler/nvm-windows)
+-   check out [nvm](https://github.com/creationix/nvm) or [nvm-windows](https://github.com/coreybutler/nvm-windows)
 
 We'll assume you're a capable developer, so we won't tell you how to go about installing those on your machine :)
 
@@ -34,19 +35,6 @@ added to the sidebar.
 
 All added pages should be added into the `meta.json` file of the directory it's in to ensure correct ordering and naming
 of any new pages.
-
-## Deployment
-
-This repository is automatically set to deploy with [Cloudflare Pages](https://pages.cloudflare.com/) to
-<https://wiki.atlauncher.com>.
-
-Cloudflare pages is only intended to run static sites, so adding in any sort of api routes with Next.js will not work
-as Cloudflare pages doesn't run the server, it instead runs `next export` to generate all the static pages upfront and
-just host them.
-
-## Contributing
-
-If you wish to contribute, please see the `CONTRIBUTING.md` file in the root of this repository.
 
 ## License
 

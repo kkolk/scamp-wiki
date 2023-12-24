@@ -1,11 +1,11 @@
 export default {
-    docsRepository: 'https://github.com/ATLauncher/wiki',
-    repository: 'https://github.com/ATLauncher/wiki',
-    titleSuffix: ' – ATLauncher Wiki',
+    docsRepository: 'https://github.com/kkolk/scamp-wiki',
+    repository: 'https://github.com/kkolk/scamp-wiki',
+    titleSuffix: ' – SCAMP Wiki',
 
     logo: (
         <>
-            <span className="mr-2 font-extrabold hidden md:inline">ATLauncher Wiki</span>
+            <span className="mr-2 font-extrabold hidden md:inline">SCAMP Wiki</span>
         </>
     ),
     head: (
@@ -14,13 +14,10 @@ export default {
             <meta name="theme-color" content="#ffffff" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta httpEquiv="Content-Language" content="en" />
-            <meta name="description" content="ATLauncher Wiki" />
-            <meta name="og:description" content="ATLauncher Wiki" />
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:site:domain" content="wiki.atlauncher.com" />
-            <meta name="twitter:url" content="https://wiki.atlauncher.com" />
-            <meta name="og:title" content="ATLauncher Wiki" />
-            <meta name="apple-mobile-web-app-title" content="ATLauncher Wiki" />
+            <meta name="description" content="SCAMP Wiki" />
+            <meta name="og:description" content="SCAMP Wiki" />
+            <meta name="og:title" content="SCAMP Wiki" />
+            <meta name="apple-mobile-web-app-title" content="SCAMP Wiki" />
             <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
             <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png" />
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -37,5 +34,7 @@ export default {
 
     footer: true,
     footerEditOnGitHubLink: true,
-    footerText: <>© ATLauncher 2021{new Date().getFullYear() === 2021 ? '' : ` - ${new Date().getFullYear()}`}</>,
+    footerText: (
+        <>© SCAMP Wiki, Kevin Kolk 2023{new Date().getFullYear() === 2023 ? '' : ` - ${new Date().getFullYear()}`}</>
+    ),
 };

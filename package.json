@@ -1,17 +1,13 @@
 {
-  "name": "@atlauncher/wiki",
+  "name": "@kkolk/scamp-wiki",
   "description": "Static wiki written with Markdown using Nextra and Next.js.",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ATLauncher/wiki.git"
+    "url": "git+https://github.com/kkolk/scamp-wiki.git"
   },
-  "author": "Ryan Dowling <ryan.dowling@atlauncher.com>",
+  "author": "Kevin Kolk",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ATLauncher/wiki/issues"
-  },
-  "homepage": "https://github.com/ATLauncher/wiki#readme",
   "scripts": {
     "build": "next build",
     "dev": "next",
