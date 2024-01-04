@@ -1,5 +1,8 @@
 {
   "index": "Home",
-  "sole": "Cockpit Sole",
-  "seats": "Seat Tops"
+  "buildplan": "Build Plan",
+  "cockpit": "2. Cockpit",
+  "seats": "3. Seat Tops",
+  "foredeck": "4. Foredeck",
+  "lazarette": "Lazerette",
 }
